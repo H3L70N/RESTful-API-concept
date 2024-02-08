@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+}
+
+
+.header{
+    padding: 30px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,94,121,1) 66%, rgba(0,212,255,1) 100%);
+    color:azure;
+    margin-bottom: 30px;
+}
+
+.apiname{
+    font-size: 30px;
+}
+
+.fill{
+    width: 100%;
+    height: 100%;
+}
+
+.field{
+    align-items: center;
+    max-width: 600px;
+}
+
+.description{
+    height: 60px;
+}
+
+.submit{
+    background-color: lightgray;
+    border: 1px black solid;
+}
+
+.submit:hover{
+    background-color: rgb(189, 189, 189);
+}

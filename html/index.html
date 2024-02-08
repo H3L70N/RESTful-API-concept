@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="apiname">
+            RESTful
+        </div>
+
+        <div>
+            Training API
+        </div>
+    </div>
+
+    <form action="">
+
+        <fieldset class="field">
+            <legend>Tasks</legend>
+
+            <table class="fill">
+                <tr>
+                    <td><label for="title">Title:</label></td>
+                    <td><input type="text" name="title" id="title" class="fill"></td>
+                </tr>
+                <tr>
+                    <td><label for="description">Description:</label></td>
+                    <td><textarea name="description" id="description" class="fill description"></textarea> </td>
+                </tr>
+                <tr>
+                    <td><label for="due">Due date:</label></td>
+                    <td><input type="date" name="due" id="due" class="fill"></td>
+                </tr>
+                <tr>
+                    <td><label for="status">Status:</label></td>
+                    <td>
+                        <select class="fill" name="status" id="status">
+                            <option value="ongoing">Ongoing</option>
+                            <option value="cancelled">Cancelled</option>
+                            <option value="complete">Complete</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" class="fill submit"></td>
+                </tr>
+
+            </table>
+
+            
+        </fieldset>
+
+
+    </form>
+
+    
+</body>
+</html>
