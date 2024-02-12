@@ -7,12 +7,13 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 
-@api_view(["GET"])
+@api_view(["POST"])
 def api_home(request, *args, **kwargs):
-    instance = Product.objects.all().order_by("?").first()
+    serializer = ProductSerializer(data=request.data)
 
-    data = {}
-    if instance:
-        data = ProductSerializer(instance).data
+    if serializer.is_valid():
+        # instance = serializer.save()
+        print(serializer.data)
+        # data = serializer.data
 
-    return Response(data)
+    return Response(serializer.data)
