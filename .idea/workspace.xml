@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c6073eb-df6c-4900-a2a5-836a4269cf22" name="Changes" comment="Django Rest Framework implementation tutorial">
-      <change afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_client/create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_client/details.py" afterDir="false" />
+    <list default="true" id="2c6073eb-df6c-4900-a2a5-836a4269cf22" name="Changes" comment="Django Rest Framework product detail view">
+      <change afterPath="$PROJECT_DIR$/py_client/delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_client/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_client/not_found.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_client/update.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/cfehome/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_client/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/create.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_client/details.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/details.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707735802290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Django Rest Framework product detail view">
+      <option name="closed" value="true" />
+      <created>1707803833276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707803833276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Django Rest Framework implementation tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django Rest Framework implementation tutorial" />
+    <MESSAGE value="Django Rest Framework product detail view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Django Rest Framework product detail view" />
   </component>
 </project>
