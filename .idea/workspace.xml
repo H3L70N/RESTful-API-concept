@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c6073eb-df6c-4900-a2a5-836a4269cf22" name="Changes" comment="Merging" />
+    <list default="true" id="2c6073eb-df6c-4900-a2a5-836a4269cf22" name="Changes" comment="Merging">
+      <change afterPath="$PROJECT_DIR$/backend/api/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/products/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_client/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/list.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +51,7 @@
     "Python.views.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "tutorial",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
