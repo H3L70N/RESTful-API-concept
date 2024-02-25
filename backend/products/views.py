@@ -3,8 +3,8 @@ from .models import Product
 from .serializers import ProductSerializer
 # noinspection PyUnresolvedReferences
 from api.mixins import StaffEditorPermissionMixin
-# noinspection PyUnresolvedReferences
-from api.permissions import IsStaffEditorPermission
+# # noinspection PyUnresolvedReferences
+# from api.permissions import IsStaffEditorPermission
 # noinspection PyUnresolvedReferences
 from api.authentication import TokenAuthentication
 
@@ -12,14 +12,11 @@ from api.authentication import TokenAuthentication
 class ProductListCreateAPIView(StaffEditorPermissionMixin, generics.ListCreateAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
-
     # permission_classes = [permissions.IsAdminUser, IsStaffEditorPermission]
 
     def perform_create(self, serializer):
-        # serializer.save(user=self.request.user)
-        # print(serializer)
-        # serializer.save()
-
+        email = serializer.validated_data.pop('email')
+        print(email)
         title = serializer.validated_data.get('title')
         content = serializer.validated_data.get('content') or None
 
